@@ -1,7 +1,7 @@
 {
-  "name": "postgresql-creating-and-deleting-databases",
+  "name": "postgresql-updating-and-deleting-data",
   "version": "1.0.0",
-  "description": "PostgreSQL: Creating & Deleting Databases",
+  "description": "PostgreSQL: Updating & Deleting Data",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
@@ -10,7 +10,6 @@
     "test": "jest",
     "test:solution": "docker-compose build && docker-compose run api npm test",
     "test:watch": "jest --watch"
-
   },
   "keywords": [],
   "author": "",
