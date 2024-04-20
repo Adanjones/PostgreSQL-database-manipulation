@@ -6,6 +6,3 @@ create table if not exists artists
   birthplace    VARCHAR NOT NULL,
   is_alive      BOOLEAN NOT NULL DEFAULT 'true'
 );
-
-INSERT INTO artists(artist_name, birthday, birthplace, is_alive)
-VALUES ('Wassily Kandinsky', '1882-12-16', 'Moscow, Russia', 'false');
